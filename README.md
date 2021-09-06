@@ -11,12 +11,10 @@ The "Inventory Management System - Record.ipynb" file deals with the management 
 
 1. The json.loads() method converts JSON into a dict object and it is stored in the variable "product".
 2. Each product has 5 attributes: product_name, retail_price, discounted_price, category, qty.
-
-  1. New products can be added by asking the user to input the Product ID, Product Name, MRP, Discounted price, Category and Quantity. 
-  2. The already existing products can be edited/updated by asking the user for the Product ID and asking them to choose the attribute they would like to change.
-  3. The existing products can be deleted by asking the user for Product ID.
-  
-4. After each functionality is performed, the updated values of the "product" dict are updated in the inventory "record.json" using json.dumps() function.
+3. New products can be added by asking the user to input the Product ID, Product Name, MRP, Discounted price, Category and Quantity. 
+4. The already existing products can be edited/updated by asking the user for the Product ID and asking them to choose the attribute they would like to change.
+5. The existing products can be deleted by asking the user for Product ID.
+6. After each functionality is performed, the updated values of the "product" dict are updated in the inventory "record.json" using json.dumps() function.
 
 The "Inventory Management System - Sales.ipynb" file deals with the management and functionalities to do with the "sales.json" file.
 
