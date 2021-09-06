@@ -13,9 +13,9 @@ The "Inventory Management System - Record.ipynb" file deals with the management 
 2. Each product has 5 attributes: product_name, retail_price, discounted_price, category, qty.
 3. Three Functionalities:
 
-  i. New products can be added by asking the user to input the Product ID, Product Name, MRP, Discounted price, Category and Quantity. 
-  ii. The already existing products can be edited/updated.
-  iii. The existing products can alo be deleted by asking the user for Product ID.
+  1. New products can be added by asking the user to input the Product ID, Product Name, MRP, Discounted price, Category and Quantity. 
+  2. The already existing products can be edited/updated.
+  3. The existing products can alo be deleted by asking the user for Product ID.
   
 4. After each functionality is performed, the updated values of the "product" dict are updated in the inventory "record.json" using json.dumps() function.
 
