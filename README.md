@@ -26,6 +26,7 @@ The "Inventory Management System - Sales.ipynb" file deals with the management a
 4. A bill is generated which displays the Product Name, Quantity, Price of each product and the Total Bill to be paid.
 5. After the purchase, the updated values of the "product" dict are updated in the inventory "record.json" using json.dumps() function.
 6. Then, the "sales.json" file is read using the json.loads() method and converting the JSON into a dict object and storing in the variable "sales".
-7. The sale that was made is updated in the "sales" dict.
-8. The updated values of the "sales" dict are updated in the "sales.json" using json.dumps() function.
+7. The sales dict has 5 attributes: "product_id", "prod_name", "qty", "amount", "time_of_purchase".
+8. The sale that was made is updated in the "sales" dict.
+9. The updated values of the "sales" dict are updated in the "sales.json" using json.dumps() function.
 
