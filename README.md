@@ -1,13 +1,15 @@
 # ETG_Inventory_Management_System
 
-The Inventory System Management Project consists of 4 files:
+![68747470733a2f2f656c697465746563686e6f67726f75702e7370617965652e636f6d2f6c6f676f2e706e67](https://user-images.githubusercontent.com/82995717/134983620-86ad35e7-5477-4ae1-94bf-ea9a904cf6bb.png)
+
+The Inventory System Management Project consists of **4 files:**
 
 1. Inventory Management System - Record.ipynb
 2. record.json
 3. Inventory Management System - Sales.ipynb
 4. sales.json
 
-The "Inventory Management System - Record.ipynb" file deals with the management and functionalities to do with the "record.json" file.
+#### The *"Inventory Management System - Record.ipynb"* file deals with the management and functionalities to do with the *"record.json"* file.
 
 1. The json.loads() method converts JSON into a dict object and it is stored in the variable "product".
 2. Each product has 5 attributes: product_name, retail_price, discounted_price, category, qty.
@@ -16,7 +18,7 @@ The "Inventory Management System - Record.ipynb" file deals with the management 
 5. The existing products can be deleted by asking the user for Product ID.
 6. After each functionality is performed, the updated values of the "product" dict are updated in the inventory "record.json" using json.dumps() function.
 
-The "Inventory Management System - Sales.ipynb" file deals with the management and functionalities to do with the "sales.json" file.
+#### The *"Inventory Management System - Sales.ipynb"* file deals with the management and functionalities to do with the *"sales.json"* file.
 
 1. First, the inventory is read from the "record.json" file and the json.loads() method converts JSON into a dict object and it is stored in the variable "product".
 2. Each product has 5 attributes: product_name, retail_price, discounted_price, category, qty.
